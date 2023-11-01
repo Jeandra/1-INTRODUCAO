@@ -5,3 +5,5 @@ const FirstComponents = () => {
         </div>
     );
 };
+
+export default FirstComponents;
