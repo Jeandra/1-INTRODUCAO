@@ -1,13 +1,20 @@
-
+import DrinkLaranja from "./assets/Drink002.jpg";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Olaaa!</h1>
+      
       <div>
        {/* Imagem em Public */} 
-       <img src="/Drink001.jpg" alt="Drink com fundo rosa" height='450px'/>
+       <h3>Drink de Espumante</h3>
+       <img src="/Drink001.jpg" alt="Drink de espumante" height='255px'/>
+      </div>
+       {/* Imagem em Assets */}
+       <h3>Drink de Laranja</h3>
+       <img src={DrinkLaranja} alt="Drink de Laranja" height='230px' />
+      <div>
+
       </div>
     </div>
   );
